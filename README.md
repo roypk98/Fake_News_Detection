@@ -124,4 +124,4 @@ In this domain, **missing a fake news article (false negative)** can have severe
 
 ## 👥 Team Members
 - [Piyush Kumar Roy](https://github.com/roypk98) 
-- [Anu Thomas](https://github.com/) 
+- [Anu Thomas](https://github.com/AnuThomas2000)
