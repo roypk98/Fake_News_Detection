@@ -1,8 +1,5 @@
 # 📰 Fake News Detection Using Word2Vec
 
-## 👥 Team Members
-- **Piyush Kumar Roy**  
-- **Anu Thomas**
 
 ---
 
@@ -91,6 +88,40 @@ Below are the sequential tasks performed to build the Fake News Detection model:
 
 ---
 
-## 📌 Final Notes
+### 7. Conclusion
+- True news emphasizes factual and institutional phrases (e.g., “the United States”), while fake news leans toward speculative or emotionally loaded patterns (e.g., “the fact that”).
 
-This assignment helps develop an understanding of how **semantic relationships** between words can be used in **text classification**. With techniques like Word2Vec, the model doesn't just look at surface-level patterns but also captures the contextual meaning of news content—crucial in distinguishing fake from true news in real-world applications.
+- By extracting only nouns and removing stopwords, the semantic process emphasizes meaningful, topic-relevant words while filtering out distracting or generic language—sharpening classification accuracy.
+
+- The lemmatized text shows shorter, more consistent character lengths, indicating reduced noise and improved uniformity—ideal for machine learning models.
+
+---
+
+#### Best Model Selected: Logistic Regression
+
+**Logistic Regression** outperformed other models with:
+
+
+
+
+- **Accuracy:** 95.92%  
+- **Precision:** 95.08%  
+- **Recall:** 96.51%  
+- **F1-score:** 95.79%  
+
+It achieved the **highest recall**, which was crucial for the nature of the problem.
+
+---
+
+#### Evaluation Metric Prioritized: Recall
+
+**Recall (Sensitivity)** measures the ability of a model to correctly identify actual fake news.
+
+In this domain, **missing a fake news article (false negative)** can have severe real-world implications. It’s acceptable to have slightly more **false positives** (i.e., some real news flagged as fake), as the cost is comparatively lower.
+
+
+---
+
+## 👥 Team Members
+- [Piyush Kumar Roy](https://github.com/roypk98) 
+- [Anu Thomas](https://github.com/) 
